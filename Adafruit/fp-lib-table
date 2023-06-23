@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Adafruit_PN532_Shield_v1.3")(type "KiCad")(uri "$(KIPRJMOD)/Adafruit_PN532_Shield_v1.3.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,48 @@
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/az-delivery-devkit-v4.html
+PLATFORM: Espressif 32 (3.5.0) > AZ-Delivery ESP-32 Dev Kit C V4
+HARDWARE: ESP32 240MHz, 520KB RAM, 16MB Flash
+DEBUG: Current (esp-prog) External (esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES:
+ - framework-arduinoespressif32 @ 3.10006.210326 (1.0.6)
+ - tool-esptoolpy @ 1.30100.210531 (3.1.0)
+ - tool-mkspiffs @ 2.230.0 (2.30)
+ - toolchain-xtensa32 @ 2.50200.97 (5.2.0)
+Converting main.ino
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 38 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Crypto @ 0.4.0
+|-- LiquidCrystal_I2C @ 1.1.4
+|-- Adafruit SSD1306 @ 2.5.7
+|-- WiFiManager @ 2.0.16-rc.2
+|-- Adafruit GFX Library @ 1.11.7
+|-- ArduinoJson @ 6.21.2
+|-- base64 @ 1.4.0
+|-- EspMQTTClient @ 1.13.3
+|-- Preferences @ 1.0
+|-- SPI @ 1.0
+|-- Wire @ 1.0.1
+Building in release mode
+Compiling .pio\build\az-delivery-devkit-v4\src\main.ino.cpp.o
+In file included from C:/Users/Richa/Documents/GitHub/shopgun_v2/230623-133359-az-delivery-devkit-v4/src/main.ino:32:0:
+.pio/libdeps/az-delivery-devkit-v4/WiFiManager/WiFiManager.h:719:10: warning: #warning "ESP32 set country unavailable" [-Wcpp]
+         #warning "ESP32 set country unavailable"
+          ^
+C:/Users/Richa/Documents/GitHub/shopgun_v2/230623-133359-az-delivery-devkit-v4/src/main.ino:1033:14: warning: 'void copyUser(const kUser&, kUser&)' defined but not used [-Wunused-function]
+  static void copyUser(const kUser& source, kUser& destination)
+              ^
+Retrieving maximum program size .pio\build\az-delivery-devkit-v4\firmware.elf
+Checking size .pio\build\az-delivery-devkit-v4\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   8.9% (used 47320 bytes from 532480 bytes)
+Flash: [=======   ]  73.9% (used 968564 bytes from 1310720 bytes)
+Configuring upload protocol...
+AVAILABLE: esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
+CURRENT: upload_protocol = esptool
+
+
+teminal red cs 27 reset 4
+teminal silver cs 5 reset 17
