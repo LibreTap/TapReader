@@ -1,1 +1,1 @@
-# shopgun_v2
+# Chipreader firmware
