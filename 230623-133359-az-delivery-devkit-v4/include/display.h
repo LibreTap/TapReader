@@ -1,5 +1,4 @@
-#ifndef DISPLAY_H
-#define DISPLAY_H
+#pragma once
 
 #include <Arduino.h>
 #include <LiquidCrystal_I2C.h>
@@ -21,5 +20,3 @@ void display_authenticate_mode();
 void display_mode_standby();
 void display_connectionloss();
 void display_settings_mode();
-
-#endif // DISPLAY_H

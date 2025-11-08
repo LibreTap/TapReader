@@ -1,5 +1,4 @@
-#ifndef MESSAGE_H
-#define MESSAGE_H
+#pragma once
 
 #include <Arduino.h>
 #include <ArduinoJson.h>
@@ -32,5 +31,3 @@ void deserializeMessage_for_disp(char *buffer, char *line1, char *line2);
 extern Message in_message;
 extern Message out_message;
 extern unsigned char out_buffer[BUFFER_LENGTH + 1];
-
-#endif // MESSAGE_H

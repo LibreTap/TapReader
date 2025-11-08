@@ -1,5 +1,4 @@
-#ifndef CARD_H
-#define CARD_H
+#pragma once
 
 #include <Arduino.h>
 #include "config.h"
@@ -82,5 +81,3 @@ extern uint32_t gu32_CommandPos;
 extern uint64_t gu64_LastPasswd;
 extern uint64_t gu64_LastID;
 extern bool gb_InitSuccess;
-
-#endif // CARD_H

@@ -1,3 +1,5 @@
+#pragma once
+
 // '1601283653701', 128x64px
 // '1601283653701', 128x64px
 const unsigned char place_card[] PROGMEM = {

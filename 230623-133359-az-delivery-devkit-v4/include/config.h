@@ -1,3 +1,12 @@
+#pragma once
+
+#include <WiFiManager.h> // https://github.com/tzapu/WiFiManager
+#include <Preferences.h> // for saving to flash
+
+extern Preferences preferences;
+extern WiFiManager wm;
+
+void run_config_portal();
 
 // select which pin will trigger the configuration portal when set to LOW
 #define WM_TRIGGER_PIN 4 // blue 4 //silver 27
